@@ -69,6 +69,21 @@ public class RegisterPage {
 	@FindBy(xpath = "//div[contains(text(),'Password must be between 4 and 20 characters!')]")
 	private WebElement ActPasswordWarMes;
 	
+	@FindBy(xpath = "//div[contains(text(),'Password confirmation does not match password!')]")
+	private WebElement PasswordAndConfirmpassMes;
+	
+	@FindBy(linkText = "Login")
+	private WebElement Registerpagelink_login;
+	
+	@FindBy(linkText = "Register")
+	private WebElement Registerpagelink_register;
+	
+	@FindBy(linkText = "Forgotten Password")
+	private WebElement Registerpagelink_forgotpassword;
+	
+	@FindBy(linkText = "My Account")
+	private WebElement Registerpagelink_Myaccount;
+	
 	public RegisterPage(WebDriver driver)
 	{
 		this.driver=driver;
@@ -221,4 +236,36 @@ public class RegisterPage {
 		return pageurl;
 	}
 	
+	public LoginPage loginlink_click()
+	{
+		Registerpagelink_login.click();
+		return new LoginPage(driver);
+	}
+	public RegisterPage Resgisterpagelink_Click()
+	{
+		Registerpagelink_register.click();
+		return new RegisterPage(driver);
+	}
+	
+	public String Registerpage_tiitle()
+	{
+		 return driver.getTitle();
+	}
+	public ForgottenPasswordPage Forgotpasswordlink_click()
+	{
+		Registerpagelink_forgotpassword.click();
+		return new ForgottenPasswordPage(driver);
+	}
+	public LoginPage MyaccountPagelink_Click()
+	{
+		Registerpagelink_Myaccount.click();
+		return new LoginPage(driver);
+		
+	}
+	public String Actualpassconfirmmes()
+	{
+		String PasswordAndConfirmpassMes1=PasswordAndConfirmpassMes.getText();
+		return PasswordAndConfirmpassMes1;
+	}
 }
+

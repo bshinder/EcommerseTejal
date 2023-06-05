@@ -8,8 +8,11 @@ import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
 import com.EcommerseApplication.BasePackage.BaseClass;
+import com.EcommerseApplication.pages.AccountPage;
 import com.EcommerseApplication.pages.AccountSucessPage;
+import com.EcommerseApplication.pages.ForgottenPasswordPage;
 import com.EcommerseApplication.pages.HomePage;
+import com.EcommerseApplication.pages.LoginPage;
 import com.EcommerseApplication.pages.RegisterPage;
 import com.EcommerseApplication.utilis.utilities;
 
@@ -18,6 +21,9 @@ public class registerTest  extends BaseClass{
 	public WebDriver driver;
 	RegisterPage register;
 	AccountSucessPage acSuccess;
+	LoginPage loginobject;
+	ForgottenPasswordPage forgotobject;
+	AccountPage Myaccount;
 
 	public registerTest()
 	{
@@ -235,7 +241,88 @@ public class registerTest  extends BaseClass{
 		
 	 }
 	 
+	 @Test(priority = 9,enabled = true)
+	 public void TC_RF_023_VerificationOfOtherNavigationPageLink() throws InterruptedException
+	 {
+		 SoftAssert sa=new SoftAssert();
+		 HomePage homepage=new HomePage(driver);
+		 homepage.clickOnMyAccount();
+		 register=homepage.RegisterOption_Click();
+		 
+		 System.out.println("click on register in myaccount dropdown");
+		 
+
+		 register=register.Resgisterpagelink_Click();
+		 sa.assertEquals(register.Registerpage_tiitle(),dataProp.getProperty("Registerpagettitle"),"Register page tittle is not shown correctly ");
+		 forgotobject=register.Forgotpasswordlink_click();
+		 sa.assertEquals(forgotobject.PageTittle_Forgetpassword(),dataProp.getProperty("ForgotPasswordPagetittle"),"Forgotten password page tittle is not shown correctly");
+		 driver.navigate().back();
+		 
+		 loginobject = register.loginlink_click();
+		 sa.assertEquals(loginobject.Pagetiitle_loginpage(),dataProp.getProperty("Loginpagettitle"),"Login page titile is not shown correctly");
+		 
+		 Myaccount = loginobject.LoginMethod(prop.getProperty("validUsername"),prop.getProperty("ValidPassword"));
+		 
+		 Thread.sleep(2000);
+		 
+		 sa.assertEquals(Myaccount.pagetittle_Myaccount(),dataProp.getProperty("MyAccountpagetittle"),"My account page tiitle is not shown correctly");
+
+		 
+		  }
 	 
+	 @Test(priority = 10,enabled = true)
+	 public void TC_RF_008_VerifyregisterFucnalityDiffrentpassAndPassconfirm()
+	 {
+		 HomePage homepage=new HomePage(driver);
+		 homepage.clickOnMyAccount();
+		 register=homepage.RegisterOption_Click();
+		 
+		 
+		 
+			register.Set_Firstname(dataProp.getProperty("FirstName"));
+			register.Set_Lastname(dataProp.getProperty("LastName"));
+			register.Set_email(prop.getProperty("validUsername"));
+			register.Set_telephone(dataProp.getProperty("TelePhone"));
+			register.Set_password(prop.getProperty("ValidPassword"));
+			register.Set_confirmpass(prop.getProperty("Invalidpassword"));
+			register.Click_newsletter();
+			register.Click_Agree();
+			register.click_Continue();
+			String ActualWarnningMessage = register.Actualpassconfirmmes();
+			String ExpectedWarnningMessage=dataProp.getProperty("ErrormsgOFpasswordAndConfirmpass");
+			Assert.assertEquals(ActualWarnningMessage,ExpectedWarnningMessage,"error msg of password and confirm password is not displayed");
+		
+	 }
+	 
+	 @Test(priority = 11,enabled = true)
+	 public void TC_RF_008_VerifyregisterFucnalityDiffrentpassAndPassconfirmisBlank() throws InterruptedException
+	 {
+		 HomePage homepage=new HomePage(driver);
+		 homepage.clickOnMyAccount();
+		 register=homepage.RegisterOption_Click();
+		 
+		 
+		 
+			register.Set_Firstname(dataProp.getProperty("FirstName"));
+			register.Set_Lastname(dataProp.getProperty("LastName"));
+			register.Set_email(prop.getProperty("validUsername"));
+			register.Set_telephone(dataProp.getProperty("TelePhone"));
+			register.Set_password(prop.getProperty("ValidPassword"));
+			register.Set_confirmpass(" ");
+			register.Click_newsletter();
+			register.Click_Agree();
+			register.click_Continue();
+			Thread.sleep(3000);
+			String ActualWarnningMessage = register.Actualpassconfirmmes();
+			String ExpectedWarnningMessage=dataProp.getProperty("ErrormsgOFpasswordAndConfirmpass");
+			Assert.assertEquals(ActualWarnningMessage,ExpectedWarnningMessage,"error msg of password and confirm password is not displayed");
+		
+	 }
+	 
+	
+
+	 
+	
 	 
 	 
 	 

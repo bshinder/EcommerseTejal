@@ -62,7 +62,7 @@ public class LoginPage {
 	public ForgottenPasswordPage Click_Forgottenpassword()
 	{
 		ForgottenpasswordLink.click();
-		return new ForgottenPasswordPage();
+		return new ForgottenPasswordPage(driver);
 	}
 	
 	public boolean ForgottenPassword_visible()
@@ -82,4 +82,11 @@ public class LoginPage {
 		String pass_placeholder = PasswordField.getAttribute("placeholder");
 		return pass_placeholder;
 	}
+	
+	public String Pagetiitle_loginpage()
+	{
+		return driver.getTitle();
+	}
+	
+	
 }

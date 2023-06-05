@@ -9,6 +9,8 @@ public class AccountPage {
 
 	WebDriver driver;
 	
+	
+	
 	@FindBy(xpath = "//a[contains(text(),'Edit your account information')]")
 	private WebElement editYourAccountInfoOption;
 	
@@ -23,5 +25,10 @@ public class AccountPage {
 	public boolean getDisplayStatusOfEditYourAccountInfoOpetion() {
 		boolean dispalyStatus=editYourAccountInfoOption.isDisplayed();
 		return dispalyStatus;
+	}
+	
+	public String pagetittle_Myaccount()
+	{
+		return driver.getTitle();
 	}
 }

@@ -5,7 +5,7 @@
     <classes>
       <class name="com.EcommerseApplication.testCases.registerTest">
         <methods>
-          <include name="Test_PrivacyPolicyCheckbox_notselected_Bydefault"/>
+          <include name="TC_RF_023_VerificationOfOtherNavigationPageLink"/>
           <include name="setUp"/>
           <include name="tearDown"/>
         </methods>
