@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="EcommerseApplication Suite">
+<listeners>
+<listener class-name="com.EcommerseApplication.Listners.MyListners"></listener>
+</listeners>
+  <test  name="EcommerseApplication Test">
+  
+    <classes>
+    <!--   <class name="com.EcommerseApplication.testCases.registerTest"/> -->
+    <!-- <class name="com.EcommerseApplication.testCases.loginTest"/> -->
+     <class name="com.EcommerseApplication.testCases.SearchTest"/> 
+     
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
