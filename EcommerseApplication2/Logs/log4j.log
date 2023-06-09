@@ -1,0 +1,190 @@
+
+2023-06-07 2023-06-09 12:20:35 INFO  Log:22 - Browser Got launch
+2023-06-09 12:20:56 INFO  Log:11 - =====================================verifySearchWithExistingProduct TEST START =========================================
+2023-06-09 12:20:56 INFO  Log:22 - Entering valid product into the Serachbox Textbox
+2023-06-09 12:20:57 INFO  Log:22 - SearchButton clicked
+2023-06-09 12:20:57 INFO  Log:22 - Validation Start for verifySearchWithExistingProductTest
+2023-06-09 12:20:57 INFO  Log:22 - validation End for verifySearchWithExistingProductTest
+2023-06-09 12:20:57 INFO  Log:15 - ======================================verifySearchWithExistingProduct TEST END  ============================================
+2023-06-09 12:20:58 INFO  Log:22 - Browser Got closed
+2023-06-09 12:20:58 INFO  Log:22 - Browser Got launch
+2023-06-09 12:21:05 INFO  Log:11 - =====================================verifySearchWithNonExistingProduct TEST START =========================================
+2023-06-09 12:21:05 INFO  Log:22 - Entering Invalid product into the Serachbox Textbox
+2023-06-09 12:21:06 INFO  Log:22 - SearchButton clicked
+2023-06-09 12:21:09 INFO  Log:22 - Validation Start for verifySearchWithNonExistingProductTest
+2023-06-09 12:21:09 INFO  Log:22 - validation End for verifySearchWithNonExistingProductTest
+2023-06-09 12:21:09 INFO  Log:15 - ======================================verifySearchWithNonExistingProduct TEST END  ============================================
+2023-06-09 12:21:09 INFO  Log:22 - Browser Got closed
+2023-06-09 12:21:09 INFO  Log:22 - Browser Got launch
+2023-06-09 12:21:16 INFO  Log:11 - =====================================verifySearchWithoutEntringProduct TEST START =========================================
+2023-06-09 12:21:16 INFO  Log:22 - SearchButton clicked
+2023-06-09 12:21:19 INFO  Log:22 - Validation Start for verifySearchWithoutEntringProductTest
+2023-06-09 12:21:19 INFO  Log:22 - validation End for verifySearchWithoutEntringProductTest
+2023-06-09 12:21:19 INFO  Log:15 - ======================================verifySearchWithoutEntringProduct TEST END  ============================================
+2023-06-09 12:21:20 INFO  Log:22 - Browser Got closed
+
+
+ =====================================VerifyRegisterAccountWithMandetoryField TEST START =========================================
+2023-06-09 12:22:31 INFO  Log:22 - Click on MyAcount Dropdown
+2023-06-09 12:22:32 INFO  Log:22 - Click on Register Option link
+2023-06-09 12:22:32 INFO  Log:22 - Entering Firstname
+2023-06-09 12:22:33 INFO  Log:22 - Enter firstname Successfull
+2023-06-09 12:22:33 INFO  Log:22 - Entering lastname
+2023-06-09 12:22:33 INFO  Log:22 - Entering Lastname Successfull
+2023-06-09 12:22:33 INFO  Log:22 - Entering Email Address
+2023-06-09 12:22:33 INFO  Log:22 - Entering Email Address Successfully
+2023-06-09 12:22:33 INFO  Log:22 - Entering telephone
+2023-06-09 12:22:33 INFO  Log:22 - Entering telephone Successfully
+2023-06-09 12:22:33 INFO  Log:22 - Entering Password
+2023-06-09 12:22:33 INFO  Log:22 - Entering password Successfully
+2023-06-09 12:22:33 INFO  Log:22 - Entering confirm password
+2023-06-09 12:22:33 INFO  Log:22 - Entering confirm password Successfully
+2023-06-09 12:22:33 INFO  Log:22 - Click on Checkbox
+2023-06-09 12:22:33 INFO  Log:22 - Click on continue
+2023-06-09 12:22:34 INFO  Log:22 - Validation started
+2023-06-09 12:22:34 INFO  Log:22 - validation Completed
+2023-06-09 12:22:34 INFO  Log:15 - ======================================VerifyRegisterAccountWithMandetoryField TEST END  ============================================
+2023-06-09 12:22:41 INFO  Log:11 - =====================================VerifyRegisterAccountWithAllField TEST START =========================================
+2023-06-09 12:22:41 INFO  Log:22 - Click on MyAcount Dropdown
+2023-06-09 12:22:42 INFO  Log:22 - Click on Register Option link
+2023-06-09 12:22:42 INFO  Log:22 - Entering Firstname
+2023-06-09 12:22:42 INFO  Log:22 - Enter firstname Successfull
+2023-06-09 12:22:42 INFO  Log:22 - Entering lastname
+2023-06-09 12:22:42 INFO  Log:22 - Entering Lastname Successfull
+2023-06-09 12:22:42 INFO  Log:22 - Entering Email Address
+2023-06-09 12:22:42 INFO  Log:22 - Entering Email Address Successfully
+2023-06-09 12:22:42 INFO  Log:22 - Entering telephone
+2023-06-09 12:22:42 INFO  Log:22 - Entering telephone Successfully
+2023-06-09 12:22:42 INFO  Log:22 - Entering Password
+2023-06-09 12:22:42 INFO  Log:22 - Entering password Successfully
+2023-06-09 12:22:42 INFO  Log:22 - Entering confirm password
+2023-06-09 12:22:42 INFO  Log:22 - Entering confirm password Successfully
+2023-06-09 12:22:42 INFO  Log:22 - Click on Newsletter checkobx
+2023-06-09 12:22:42 INFO  Log:22 - Click on Checkbox
+2023-06-09 12:22:42 INFO  Log:22 - Click on continue
+2023-06-09 12:22:43 INFO  Log:22 - Validation started
+2023-06-09 12:22:43 INFO  Log:22 - validation Completed
+2023-06-09 12:22:43 INFO  Log:15 - ======================================VerifyRegisterAccountWithAllField TEST END  ============================================
+2023-06-09 12:22:49 INFO  Log:11 - =====================================verifyRegisterPageWithExsitingEmail TEST START =========================================
+2023-06-09 12:22:49 INFO  Log:22 - Click on MyAcount Dropdown
+2023-06-09 12:22:49 INFO  Log:22 - Click on Register Option link
+2023-06-09 12:22:50 INFO  Log:15 - ======================================verifyRegisterPageWithExsitingEmail TEST END  ============================================
+2023-06-09 12:22:57 INFO  Log:11 - =====================================verifyRegisterPageWithoutProvidingfeild TEST START =========================================
+2023-06-09 12:22:58 INFO  Log:15 - ======================================verifyRegisterPageWithoutProvidingfeild TEST END  ============================================
+2023-06-09 12:23:04 INFO  Log:11 - =====================================Verify_Allfieldhave_proper_Placeholder TEST START =========================================
+2023-06-09 12:23:05 INFO  Log:15 - ======================================Verify_Allfieldhave_proper_Placeholder TEST END  ============================================
+2023-06-09 12:23:13 INFO  Log:11 - =====================================Test_PrivacyPolicyCheckbox_notselected_Bydefault TEST START =========================================
+2023-06-09 12:23:14 INFO  Log:15 - ======================================Test_PrivacyPolicyCheckbox_notselected_Bydefault TEST END  ============================================
+2023-06-09 12:23:20 INFO  Log:11 - =====================================Test_RegisterAccount_withoutSelcting_privacyPolicycheckbox TEST START =========================================
+2023-06-09 12:23:24 INFO  Log:15 - ======================================Test_RegisterAccount_withoutSelcting_privacyPolicycheckbox TEST END  ============================================
+2023-06-09 12:23:30 INFO  Log:11 - =====================================TC_Rf_025_VerifyBreadcrumb TEST START =========================================
+2023-06-09 12:23:30 INFO  Log:15 - ======================================TC_Rf_025_VerifyBreadcrumb TEST END  ============================================
+2023-06-09 12:23:36 INFO  Log:11 - =====================================TC_RF_023_VerificationOfOtherNavigationPageLink TEST START =========================================
+2023-06-09 12:23:40 INFO  Log:15 - ======================================TC_RF_023_VerificationOfOtherNavigationPageLink TEST END  ============================================
+2023-06-09 12:23:46 INFO  Log:11 - =====================================TC_RF_008_VerifyregisterFucnalityDiffrentpassAndPassconfirm TEST START =========================================
+2023-06-09 12:23:47 INFO  Log:15 - ======================================TC_RF_008_VerifyregisterFucnalityDiffrentpassAndPassconfirm TEST END  ============================================
+2023-06-09 12:23:53 INFO  Log:11 - =====================================TC_RF_008_VerifyregisterFucnalityDiffrentpassAndPassconfirmisBlank TEST START =========================================
+2023-06-09 12:23:57 INFO  Log:15 - ======================================TC_RF_008_VerifyregisterFucnalityDiffrentpassAndPassconfirmisBlank TEST END  ============================================
+2023-06-09 12:23:59 INFO  Log:22 - Browser Got launched
+2023-06-09 12:24:05 INFO  Log:22 - Broswer Launched successfully
+2023-06-09 12:24:05 INFO  Log:22 - Click on MyAccount Link
+2023-06-09 12:24:05 INFO  Log:22 - Click On Login Link
+2023-06-09 12:24:05 INFO  Log:11 - =====================================Login TEST START =========================================
+2023-06-09 12:24:05 INFO  Log:22 - Eneytring username
+2023-06-09 12:24:05 INFO  Log:22 - Enetring password
+2023-06-09 12:24:05 INFO  Log:22 - Click on login button
+2023-06-09 12:24:05 INFO  Log:22 - validation stared
+2023-06-09 12:24:05 INFO  Log:22 - Validation done successfully
+2023-06-09 12:24:05 INFO  Log:15 - ======================================Login TEST END  ============================================
+2023-06-09 12:24:05 INFO  Log:22 - Driver got Closed
+2023-06-09 12:24:06 INFO  Log:22 - Browser Got launched
+2023-06-09 12:24:13 INFO  Log:22 - Broswer Launched successfully
+2023-06-09 12:24:13 INFO  Log:22 - Click on MyAccount Link
+2023-06-09 12:24:13 INFO  Log:22 - Click On Login Link
+2023-06-09 12:24:13 INFO  Log:11 - =====================================Login TEST START =========================================
+2023-06-09 12:24:13 INFO  Log:22 - Eneytring username
+2023-06-09 12:24:13 INFO  Log:22 - Enetring password
+2023-06-09 12:24:13 INFO  Log:22 - Click on login button
+2023-06-09 12:24:14 INFO  Log:22 - validation stared
+2023-06-09 12:24:14 INFO  Log:22 - Validation done successfully
+2023-06-09 12:24:14 INFO  Log:15 - ======================================Login TEST END  ============================================
+2023-06-09 12:24:14 INFO  Log:22 - Driver got Closed
+2023-06-09 12:24:14 INFO  Log:22 - Browser Got launched
+2023-06-09 12:24:19 INFO  Log:22 - Broswer Launched successfully
+2023-06-09 12:24:19 INFO  Log:22 - Click on MyAccount Link
+2023-06-09 12:24:19 INFO  Log:22 - Click On Login Link
+2023-06-09 12:24:19 INFO  Log:11 - =====================================Login TEST START =========================================
+2023-06-09 12:24:19 INFO  Log:22 - Eneytring username
+2023-06-09 12:24:19 INFO  Log:22 - Enetring password
+2023-06-09 12:24:19 INFO  Log:22 - Click on login button
+2023-06-09 12:24:20 INFO  Log:22 - validation stared
+2023-06-09 12:24:20 INFO  Log:22 - Validation done successfully
+2023-06-09 12:24:20 INFO  Log:15 - ======================================Login TEST END  ============================================
+2023-06-09 12:24:20 INFO  Log:22 - Driver got Closed
+2023-06-09 12:24:20 INFO  Log:22 - Browser Got launched
+2023-06-09 12:24:25 INFO  Log:22 - Broswer Launched successfully
+2023-06-09 12:24:25 INFO  Log:22 - Click on MyAccount Link
+2023-06-09 12:24:25 INFO  Log:22 - Click On Login Link
+2023-06-09 12:24:26 INFO  Log:11 - =====================================Login TEST START =========================================
+2023-06-09 12:24:26 INFO  Log:22 - Eneytring username
+2023-06-09 12:24:26 INFO  Log:22 - Enetring password
+2023-06-09 12:24:26 INFO  Log:22 - Click on login button
+2023-06-09 12:24:26 INFO  Log:22 - validation stared
+2023-06-09 12:24:26 INFO  Log:22 - Validation done successfully
+2023-06-09 12:24:26 INFO  Log:15 - ======================================Login TEST END  ============================================
+2023-06-09 12:24:26 INFO  Log:22 - Driver got Closed
+2023-06-09 12:24:27 INFO  Log:22 - Browser Got launched
+2023-06-09 12:24:34 INFO  Log:22 - Broswer Launched successfully
+2023-06-09 12:24:34 INFO  Log:22 - Click on MyAccount Link
+2023-06-09 12:24:34 INFO  Log:22 - Click On Login Link
+2023-06-09 12:24:34 INFO  Log:11 - =====================================Login TEST START =========================================
+2023-06-09 12:24:34 INFO  Log:22 - Eneytring username
+2023-06-09 12:24:34 INFO  Log:22 - Enetring password
+2023-06-09 12:24:34 INFO  Log:22 - Click on login button
+2023-06-09 12:24:34 INFO  Log:22 - validation stared
+2023-06-09 12:24:34 INFO  Log:22 - Validation done successfully
+2023-06-09 12:24:34 INFO  Log:15 - ======================================Login TEST END  ============================================
+2023-06-09 12:24:34 INFO  Log:22 - Driver got Closed
+2023-06-09 12:24:35 INFO  Log:22 - Browser Got launched
+2023-06-09 12:24:41 INFO  Log:22 - Broswer Launched successfully
+2023-06-09 12:24:41 INFO  Log:22 - Click on MyAccount Link
+2023-06-09 12:24:41 INFO  Log:22 - Click On Login Link
+2023-06-09 12:24:41 INFO  Log:11 - =====================================TC_LF_006_Forgottenpassword TEST START =========================================
+2023-06-09 12:24:41 INFO  Log:22 - Validation stared
+2023-06-09 12:24:42 INFO  Log:22 - valodation Done successfully
+2023-06-09 12:24:42 INFO  Log:15 - ======================================TC_LF_006_Forgottenpassword TEST END  ============================================
+2023-06-09 12:24:42 INFO  Log:22 - Driver got Closed
+2023-06-09 12:24:42 INFO  Log:22 - Browser Got launched
+2023-06-09 12:24:48 INFO  Log:22 - Broswer Launched successfully
+2023-06-09 12:24:48 INFO  Log:22 - Click on MyAccount Link
+2023-06-09 12:24:48 INFO  Log:22 - Click On Login Link
+2023-06-09 12:24:48 INFO  Log:11 - =====================================TC_LF_008_PlaceholderVisibilityTest TEST START =========================================
+2023-06-09 12:24:48 INFO  Log:22 - Getting username placeholder text
+2023-06-09 12:24:48 INFO  Log:22 - getting password placeholder text
+2023-06-09 12:24:53 INFO  Log:22 - Validation stared
+2023-06-09 12:24:53 INFO  Log:22 - Validation done successfully
+2023-06-09 12:24:53 INFO  Log:15 - ======================================TC_LF_008_PlaceholderVisibilityTest TEST END  ============================================
+2023-06-09 12:24:53 INFO  Log:22 - Driver got Closed
+2023-06-09 12:24:53 INFO  Log:22 - Browser Got launch
+2023-06-09 12:24:58 INFO  Log:11 - =====================================verifySearchWithExistingProduct TEST START =========================================
+2023-06-09 12:24:58 INFO  Log:22 - Entering valid product into the Serachbox Textbox
+2023-06-09 12:24:59 INFO  Log:22 - SearchButton clicked
+2023-06-09 12:24:59 INFO  Log:22 - Validation Start for verifySearchWithExistingProductTest
+2023-06-09 12:24:59 INFO  Log:22 - validation End for verifySearchWithExistingProductTest
+2023-06-09 12:24:59 INFO  Log:15 - ======================================verifySearchWithExistingProduct TEST END  ============================================
+2023-06-09 12:24:59 INFO  Log:22 - Browser Got closed
+2023-06-09 12:24:59 INFO  Log:22 - Browser Got launch
+2023-06-09 12:25:04 INFO  Log:11 - =====================================verifySearchWithNonExistingProduct TEST START =========================================
+2023-06-09 12:25:04 INFO  Log:22 - Entering Invalid product into the Serachbox Textbox
+2023-06-09 12:25:05 INFO  Log:22 - SearchButton clicked
+2023-06-09 12:25:08 INFO  Log:22 - Validation Start for verifySearchWithNonExistingProductTest
+2023-06-09 12:25:08 INFO  Log:22 - validation End for verifySearchWithNonExistingProductTest
+2023-06-09 12:25:08 INFO  Log:15 - ======================================verifySearchWithNonExistingProduct TEST END  ============================================
+2023-06-09 12:25:08 INFO  Log:22 - Browser Got closed
+2023-06-09 12:25:08 INFO  Log:22 - Browser Got launch
+2023-06-09 12:25:15 INFO  Log:11 - =====================================verifySearchWithoutEntringProduct TEST START =========================================
+2023-06-09 12:25:15 INFO  Log:22 - SearchButton clicked
+2023-06-09 12:25:18 INFO  Log:22 - Validation Start for verifySearchWithoutEntringProductTest
+2023-06-09 12:25:18 INFO  Log:22 - validation End for verifySearchWithoutEntringProductTest
+2023-06-09 12:25:18 INFO  Log:15 - ======================================verifySearchWithoutEntringProduct TEST END  ============================================
+2023-06-09 12:25:18 INFO  Log:22 - Browser Got closed

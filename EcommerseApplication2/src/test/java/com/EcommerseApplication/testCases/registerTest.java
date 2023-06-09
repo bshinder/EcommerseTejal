@@ -14,6 +14,7 @@ import com.EcommerseApplication.pages.ForgottenPasswordPage;
 import com.EcommerseApplication.pages.HomePage;
 import com.EcommerseApplication.pages.LoginPage;
 import com.EcommerseApplication.pages.RegisterPage;
+import com.EcommerseApplication.utilis.Log;
 import com.EcommerseApplication.utilis.utilities;
 
 public class registerTest  extends BaseClass{
@@ -44,50 +45,97 @@ public class registerTest  extends BaseClass{
 
 		 @Test(priority = 1,enabled = true)
 	 public void VerifyRegisterAccountWithMandetoryField() {
+			Log.startTestCase("VerifyRegisterAccountWithMandetoryField");
 			HomePage homepage=new HomePage(driver);
+			Log.info("Click on MyAcount Dropdown");
 			homepage.clickOnMyAccount();
 			register = homepage.RegisterOption_Click();
+			Log.info("Click on Register Option link");
 			
 			
+			Log.info("Entering Firstname");
 			register.Set_Firstname(dataProp.getProperty("FirstName"));
+			Log.info("Enter firstname Successfull");
+			Log.info("Entering lastname");
 			register.Set_Lastname(dataProp.getProperty("LastName"));
+			Log.info("Entering Lastname Successfull");
+			
+			Log.info("Entering Email Address");
 			register.Set_email(utilities.generateEmailWithTimeStamp());
+			Log.info("Entering Email Address Successfully");
+			
+			Log.info("Entering telephone");
 			register.Set_telephone(dataProp.getProperty("TelePhone"));
+			Log.info("Entering telephone Successfully");
+			Log.info("Entering Password");
 			register.Set_password("270619");
+			Log.info("Entering password Successfully");
+			Log.info("Entering confirm password");
 			register.Set_confirmpass("270619");
+			Log.info("Entering confirm password Successfully");
 			register.Click_Agree();
+			Log.info("Click on Checkbox");
+			Log.info("Click on continue");
 			acSuccess = register.click_Continue();
 			
+			Log.info("Validation started");
 			String ActualSuccessMessage =acSuccess.retriveTheAccountSucessHeading(); 
 			String ExpectedSuccessMessage=dataProp.getProperty("AccountSucessMesg");
 			Assert.assertEquals(ActualSuccessMessage,ExpectedSuccessMessage,"Account SuccessPage is not displayed");
-			
+			Log.info("validation Completed");
+			Log.endTestCase("VerifyRegisterAccountWithMandetoryField");
 	
 	 }
 	 @Test(priority = 2,enabled = true)
 	  public void VerifyRegisterAccountWithAllField() {
-		 
+		 Log.startTestCase("VerifyRegisterAccountWithAllField");
 		 HomePage homepage=new HomePage(driver);
 		 homepage.clickOnMyAccount();
+		 Log.info("Click on MyAcount Dropdown");
 		 register =homepage.RegisterOption_Click();
+		 Log.info("Click on Register Option link");
 		 
-		 
+		 Log.info("Entering Firstname");
 		 register.Set_Firstname(dataProp.getProperty("FirstName"));
+		 Log.info("Enter firstname Successfull");
+		 Log.info("Entering lastname");
 		 register.Set_Lastname(dataProp.getProperty("LastName"));
+		 Log.info("Entering Lastname Successfull");
+		 
+		 Log.info("Entering Email Address");
 		 register.Set_email(utilities.generateEmailWithTimeStamp());
+		 Log.info("Entering Email Address Successfully");
+		 
+		 Log.info("Entering telephone");
 		 register.Set_telephone(dataProp.getProperty("TelePhone"));
+		 Log.info("Entering telephone Successfully");
+		 
+		 Log.info("Entering Password");
 		 register.Set_password("270619");
+		 Log.info("Entering password Successfully");
+		 
+		 Log.info("Entering confirm password");
 		 register.Set_confirmpass("270619");
+		 Log.info("Entering confirm password Successfully");
 			
 		
+		 Log.info("Click on Newsletter checkobx");
 		 register.Click_newsletter();
+		 
+		 Log.info("Click on Checkbox");
+			
 		 register.Click_Agree();
+		 Log.info("Click on continue");
 		 acSuccess=register.click_Continue();
 		 
+		 Log.info("Validation started");
 		 String ActualSuccessMessage =acSuccess.retriveTheAccountSucessHeading();
 				
 		 String ExpectedSuccessMessage=dataProp.getProperty("AccountSucessMesg");
 		 Assert.assertEquals(ActualSuccessMessage,ExpectedSuccessMessage,"Account SuccessPage is not displayed");
+		 
+		Log.info("validation Completed");
+		Log.endTestCase("VerifyRegisterAccountWithAllField");
 				
 		
 	  }
@@ -96,9 +144,13 @@ public class registerTest  extends BaseClass{
 	 @Test(priority = 3,enabled = true)
 	 public void verifyRegisterPageWithExsitingEmail()
 	 {
+		 Log.startTestCase("verifyRegisterPageWithExsitingEmail");
 		 HomePage homepage=new HomePage(driver);
+		 Log.info("Click on MyAcount Dropdown");
 		 homepage.clickOnMyAccount();
+		 
 		 register=homepage.RegisterOption_Click();
+		 Log.info("Click on Register Option link");
 		 
 		 
 		 
@@ -114,12 +166,14 @@ public class registerTest  extends BaseClass{
 			String ActualWarnningMessage = register.Get_Warningmsgfrom_register_on_email();
 			String ExpectedWarnningMessage=dataProp.getProperty("ExpectedWarnningMessage_ForExistingEmail");
 			Assert.assertEquals(ActualWarnningMessage,ExpectedWarnningMessage,"Account SuccessPage is not displayed");
+			Log.endTestCase("verifyRegisterPageWithExsitingEmail");
 			
 	 }
 		 
 	 @Test(priority = 4,enabled = true)
 	 public void verifyRegisterPageWithoutProvidingfeild()
 	 {
+		 Log.startTestCase("verifyRegisterPageWithoutProvidingfeild");
 		 HomePage homepage=new HomePage(driver);
 		 homepage.clickOnMyAccount();
 		 register=homepage.RegisterOption_Click();
@@ -152,12 +206,14 @@ public class registerTest  extends BaseClass{
 		    String ActPasswordWarMes=register.ActPasswordWarMes_text();
 		    String ExcPasswordWarMes=dataProp.getProperty("ExcPasswordWarMes_tittle");
 		    Assert.assertEquals(ActPasswordWarMes, ExcPasswordWarMes,"Warnning message For Password not Display");
+		    Log.endTestCase("verifyRegisterPageWithoutProvidingfeild");
 	 
 	 }
 	 
 	 @Test(priority = 5,enabled = true)
 	 public void Verify_Allfieldhave_proper_Placeholder()
 	 {
+		 Log.startTestCase("Verify_Allfieldhave_proper_Placeholder");
 		 HomePage homepage=new HomePage(driver);
 		 homepage.clickOnMyAccount();
 		 register=homepage.RegisterOption_Click();
@@ -180,11 +236,14 @@ public class registerTest  extends BaseClass{
 		 
 		 sa.assertAll();
 		 
+		 Log.endTestCase("Verify_Allfieldhave_proper_Placeholder");
+		 
 	 }
 	 
 	 @Test(priority = 6,enabled = true)
 	 public void Test_PrivacyPolicyCheckbox_notselected_Bydefault()
 	 {
+		 Log.startTestCase("Test_PrivacyPolicyCheckbox_notselected_Bydefault");
 		 HomePage homepage=new HomePage(driver);
 		 homepage.clickOnMyAccount();
 		 register=homepage.RegisterOption_Click();
@@ -193,11 +252,13 @@ public class registerTest  extends BaseClass{
 		 boolean Default_privacyPolicy_Checkbox_value = register.Default_privacyPolicyCheckbox_click_check();
 		 
 		 Assert.assertEquals(Default_privacyPolicy_Checkbox_value,false,"privacy policy checked by default");
+		 Log.endTestCase("Test_PrivacyPolicyCheckbox_notselected_Bydefault");
 	 }
 	 
 	 @Test(priority = 7,enabled = true)
 	 public void Test_RegisterAccount_withoutSelcting_privacyPolicycheckbox() throws InterruptedException
 	 {
+		 Log.startTestCase("Test_RegisterAccount_withoutSelcting_privacyPolicycheckbox");
 		 HomePage homepage=new HomePage(driver);
 		 homepage.clickOnMyAccount();
 		 register=homepage.RegisterOption_Click();
@@ -221,13 +282,14 @@ public class registerTest  extends BaseClass{
 		 String ExcPrivacyPolicyWarMes=dataProp.getProperty("ExcPrivacyPolicyWarMes_tittle");
 		 Assert.assertEquals(ActPrivacyPolicyWarMes, ExcPrivacyPolicyWarMes,"Warnning message For Privacy policy not Display");
 		    
-		 
+		 Log.endTestCase("Test_RegisterAccount_withoutSelcting_privacyPolicycheckbox");
 	 }
 	 
 	 @Test(priority = 8,enabled = true)
 	 public void TC_Rf_025_VerifyBreadcrumb()
 	 {
 			
+		 Log.startTestCase("TC_Rf_025_VerifyBreadcrumb");
 		 HomePage homepage=new HomePage(driver);
 		 homepage.clickOnMyAccount();
 		 register=homepage.RegisterOption_Click();
@@ -238,12 +300,14 @@ public class registerTest  extends BaseClass{
 		 SoftAssert sa=new SoftAssert();
 		 sa.assertEquals(actulaurl,dataProp.getProperty("Pageurl"),"Url is not show");
 		 sa.assertEquals(Actulapagettitle, dataProp.getProperty("Pagettitle"),"page tittle is not show");
+		 Log.endTestCase("TC_Rf_025_VerifyBreadcrumb");
 		
 	 }
 	 
 	 @Test(priority = 9,enabled = true)
 	 public void TC_RF_023_VerificationOfOtherNavigationPageLink() throws InterruptedException
 	 {
+		 Log.startTestCase("TC_RF_023_VerificationOfOtherNavigationPageLink");
 		 SoftAssert sa=new SoftAssert();
 		 HomePage homepage=new HomePage(driver);
 		 homepage.clickOnMyAccount();
@@ -267,12 +331,13 @@ public class registerTest  extends BaseClass{
 		 
 		 sa.assertEquals(Myaccount.pagetittle_Myaccount(),dataProp.getProperty("MyAccountpagetittle"),"My account page tiitle is not shown correctly");
 
-		 
+		 Log.endTestCase("TC_RF_023_VerificationOfOtherNavigationPageLink");
 		  }
 	 
 	 @Test(priority = 10,enabled = true)
 	 public void TC_RF_008_VerifyregisterFucnalityDiffrentpassAndPassconfirm()
 	 {
+		 Log.startTestCase("TC_RF_008_VerifyregisterFucnalityDiffrentpassAndPassconfirm");
 		 HomePage homepage=new HomePage(driver);
 		 homepage.clickOnMyAccount();
 		 register=homepage.RegisterOption_Click();
@@ -292,11 +357,13 @@ public class registerTest  extends BaseClass{
 			String ExpectedWarnningMessage=dataProp.getProperty("ErrormsgOFpasswordAndConfirmpass");
 			Assert.assertEquals(ActualWarnningMessage,ExpectedWarnningMessage,"error msg of password and confirm password is not displayed");
 		
+			Log.endTestCase("TC_RF_008_VerifyregisterFucnalityDiffrentpassAndPassconfirm");
 	 }
 	 
 	 @Test(priority = 11,enabled = true)
 	 public void TC_RF_008_VerifyregisterFucnalityDiffrentpassAndPassconfirmisBlank() throws InterruptedException
 	 {
+		 Log.startTestCase("TC_RF_008_VerifyregisterFucnalityDiffrentpassAndPassconfirmisBlank");
 		 HomePage homepage=new HomePage(driver);
 		 homepage.clickOnMyAccount();
 		 register=homepage.RegisterOption_Click();
@@ -317,6 +384,7 @@ public class registerTest  extends BaseClass{
 			String ExpectedWarnningMessage=dataProp.getProperty("ErrormsgOFpasswordAndConfirmpass");
 			Assert.assertEquals(ActualWarnningMessage,ExpectedWarnningMessage,"error msg of password and confirm password is not displayed");
 		
+			Log.endTestCase("TC_RF_008_VerifyregisterFucnalityDiffrentpassAndPassconfirmisBlank");
 	 }
 	 
 	

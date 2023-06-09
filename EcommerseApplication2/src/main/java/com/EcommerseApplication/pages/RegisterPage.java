@@ -14,7 +14,7 @@ import org.openqa.selenium.support.PageFactory;
  */
 public class RegisterPage {
 	
-	WebDriver driver;
+  WebDriver driver;
 
 	@FindBy(id="input-firstname")
 	private WebElement firstname;
