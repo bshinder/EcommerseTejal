@@ -7,9 +7,9 @@
   <test  name="EcommerseApplication Test">
   
     <classes>
-    <!--   <class name="com.EcommerseApplication.testCases.registerTest"/> -->
-    <!-- <class name="com.EcommerseApplication.testCases.loginTest"/> -->
-     <class name="com.EcommerseApplication.testCases.SearchTest"/> 
+      <class name="com.EcommerseApplication.testCases.registerTest"/> 
+      <class name="com.EcommerseApplication.testCases.loginTest"/>   
+       <class name="com.EcommerseApplication.testCases.SearchTest"/> 
      
     </classes>
   </test> <!-- Test -->

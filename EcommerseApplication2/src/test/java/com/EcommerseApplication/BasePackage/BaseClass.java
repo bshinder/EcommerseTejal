@@ -8,12 +8,14 @@ import java.sql.DriverManager;
 import java.time.Duration;
 import java.util.Properties;
 
+import org.apache.log4j.xml.DOMConfigurator;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.safari.SafariDriver;
+import org.testng.annotations.BeforeSuite;
 
 import com.EcommerseApplication.utilis.utilities;
 
@@ -26,6 +28,9 @@ public class BaseClass {
     public Properties dataProp;
 	
 	public  BaseClass()  {
+		
+		
+		
 		 prop= new Properties();
          dataProp=new Properties();
 		File PropFile=new File(System.getProperty("user.dir")+"\\src\\main\\java\\com\\EcommerseApplication\\config\\config.properties");
@@ -48,6 +53,12 @@ public class BaseClass {
 		}
 		
 
+	}
+	
+	@BeforeSuite
+	public void beforesuite()
+	{
+		DOMConfigurator.configure("log4j.xml");
 	}
 	
 	
