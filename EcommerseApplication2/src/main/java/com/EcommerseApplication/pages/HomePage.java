@@ -16,6 +16,9 @@ public class HomePage {
 	@FindBy(xpath="//a[contains(text(),'Login')]")
 	private WebElement LoginOption;
 	
+	@FindBy(xpath = "//body/nav[@id='top']/div[1]/div[2]/ul[1]/li[2]/ul[1]/li[5]/a[1]")
+	private WebElement LogoutOption;
+	
 	@FindBy(linkText = "Register")
 	private WebElement registeroption;
 	
@@ -57,6 +60,11 @@ public class HomePage {
 	{
 		Search_Button.click();
 		return new SearchPage(driver);
+	}
+	public LogOutPage Logoutoption_Click()
+	{
+		LogoutOption.click();
+		return new LogOutPage(driver);
 	}
 	
 }

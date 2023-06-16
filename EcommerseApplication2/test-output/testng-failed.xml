@@ -3,13 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.EcommerseApplication.testCases.registerTest">
+      <class name="com.EcommerseApplication.testCases.SearchTest">
         <methods>
-          <include name="TC_RF_023_VerificationOfOtherNavigationPageLink"/>
+          <include name="beforesuite"/>
+          <include name="Tc_006_verifySearchWithoutEntringProductForPlaceholder"/>
           <include name="setUp"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.EcommerseApplication.testCases.registerTest -->
+      </class> <!-- com.EcommerseApplication.testCases.SearchTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
