@@ -5,6 +5,7 @@ import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
@@ -25,11 +26,14 @@ public class loginTest  extends BaseClass{
 	public loginTest() {
 		super();
 	}
+	
+	@Parameters("browser")
 	@BeforeMethod
-	public void setUp() {
+	public void setUp(String broswername) {
 		
 		Log.info("Browser Got launched");  
-		driver=initilizeBrowser(prop.getProperty("browser"));
+		//driver=initilizeBrowser(prop.getProperty("browser"));
+		driver=initilizeBrowser(broswername);
 		Log.info("Broswer Launched successfully");
 		HomePage homePage=new HomePage(driver);
 		Log.info("Click on MyAccount Link");

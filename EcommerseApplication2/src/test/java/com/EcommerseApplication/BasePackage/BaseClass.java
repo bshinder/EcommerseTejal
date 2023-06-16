@@ -15,21 +15,26 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.safari.SafariDriver;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.Parameters;
 
+import com.EcommerseApplication.utilis.Log;
 import com.EcommerseApplication.utilis.utilities;
+import com.beust.jcommander.Parameter;
 
 import io.github.bonigarcia.wdm.managers.OperaDriverManager;
 
 public class BaseClass {
   
-    WebDriver driver;
-	public Properties prop;
+    public static  WebDriver driver;
+	public static Properties prop;
     public Properties dataProp;
-	
+
+    
 	public  BaseClass()  {
-		
-		
 		
 		 prop= new Properties();
          dataProp=new Properties();
@@ -62,6 +67,8 @@ public class BaseClass {
 	}
 	
 	
+	
+
 	
 	public WebDriver initilizeBrowser(String browserName) {
 
@@ -99,5 +106,8 @@ public class BaseClass {
 			return driver;
 	
 	}
+	
+	
+
 	
 }

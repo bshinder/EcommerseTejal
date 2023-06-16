@@ -1,0 +1,4 @@
+com\EcommerseApplication\BasePackage\BaseClass.class
+com\EcommerseApplication\testCases\SearchTest.class
+com\EcommerseApplication\testCases\loginTest.class
+com\EcommerseApplication\testCases\registerTest.class
