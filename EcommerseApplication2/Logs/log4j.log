@@ -2733,3 +2733,247 @@
 2023-06-16 18:52:08 DEBUG cache:45 - TemplateLoader.findTemplateSource("commons/commons-inject-js_en.ftl"): Not found
 2023-06-16 18:52:08 DEBUG cache:45 - TemplateLoader.findTemplateSource("commons/commons-inject-js.ftl"): Found
 2023-06-16 18:52:08 DEBUG cache:45 - Loading template for "commons/commons-inject-js.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/sai/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/commons/commons-inject-js.ftl"
+2024-03-26 15:21:38 INFO  Log:11 - =====================================VerifyRegisterAccountWithMandetoryField TEST START =========================================
+2024-03-26 15:21:38 INFO  Log:22 - Click on MyAcount Dropdown
+2024-03-26 15:21:40 INFO  Log:22 - Click on Register Option link
+2024-03-26 15:21:40 INFO  Log:22 - Entering Firstname
+2024-03-26 15:21:40 INFO  Log:22 - Enter firstname Successfull
+2024-03-26 15:21:40 INFO  Log:22 - Entering lastname
+2024-03-26 15:21:40 INFO  Log:22 - Entering Lastname Successfull
+2024-03-26 15:21:40 INFO  Log:22 - Entering Email Address
+2024-03-26 15:21:41 INFO  Log:22 - Entering Email Address Successfully
+2024-03-26 15:21:41 INFO  Log:22 - Entering telephone
+2024-03-26 15:21:41 INFO  Log:22 - Entering telephone Successfully
+2024-03-26 15:21:41 INFO  Log:22 - Entering Password
+2024-03-26 15:21:41 INFO  Log:22 - Entering password Successfully
+2024-03-26 15:21:41 INFO  Log:22 - Entering confirm password
+2024-03-26 15:21:41 INFO  Log:22 - Entering confirm password Successfully
+2024-03-26 15:21:41 INFO  Log:22 - Click on Checkbox
+2024-03-26 15:21:41 INFO  Log:22 - Click on continue
+2024-03-26 15:21:42 INFO  Log:22 - Validation started
+2024-03-26 15:21:42 INFO  Log:22 - validation Completed
+2024-03-26 15:21:42 INFO  Log:15 - ======================================VerifyRegisterAccountWithMandetoryField TEST END  ============================================
+2024-03-26 15:21:57 INFO  Log:11 - =====================================VerifyRegisterAccountWithAllField TEST START =========================================
+2024-03-26 15:21:57 INFO  Log:22 - Click on MyAcount Dropdown
+2024-03-26 15:21:59 INFO  Log:22 - Click on Register Option link
+2024-03-26 15:21:59 INFO  Log:22 - Entering Firstname
+2024-03-26 15:21:59 INFO  Log:22 - Enter firstname Successfull
+2024-03-26 15:21:59 INFO  Log:22 - Entering lastname
+2024-03-26 15:21:59 INFO  Log:22 - Entering Lastname Successfull
+2024-03-26 15:21:59 INFO  Log:22 - Entering Email Address
+2024-03-26 15:21:59 INFO  Log:22 - Entering Email Address Successfully
+2024-03-26 15:21:59 INFO  Log:22 - Entering telephone
+2024-03-26 15:21:59 INFO  Log:22 - Entering telephone Successfully
+2024-03-26 15:21:59 INFO  Log:22 - Entering Password
+2024-03-26 15:21:59 INFO  Log:22 - Entering password Successfully
+2024-03-26 15:21:59 INFO  Log:22 - Entering confirm password
+2024-03-26 15:21:59 INFO  Log:22 - Entering confirm password Successfully
+2024-03-26 15:21:59 INFO  Log:22 - Click on Newsletter checkobx
+2024-03-26 15:21:59 INFO  Log:22 - Click on Checkbox
+2024-03-26 15:22:00 INFO  Log:22 - Click on continue
+2024-03-26 15:22:01 INFO  Log:22 - Validation started
+2024-03-26 15:22:01 INFO  Log:22 - validation Completed
+2024-03-26 15:22:01 INFO  Log:15 - ======================================VerifyRegisterAccountWithAllField TEST END  ============================================
+2024-03-26 15:22:16 INFO  Log:11 - =====================================verifyRegisterPageWithExsitingEmail TEST START =========================================
+2024-03-26 15:22:16 INFO  Log:22 - Click on MyAcount Dropdown
+2024-03-26 15:22:17 INFO  Log:22 - Click on Register Option link
+2024-03-26 15:22:19 INFO  Log:15 - ======================================verifyRegisterPageWithExsitingEmail TEST END  ============================================
+2024-03-26 15:22:35 INFO  Log:11 - =====================================verifyRegisterPageWithoutProvidingfeild TEST START =========================================
+2024-03-26 15:22:37 INFO  Log:15 - ======================================verifyRegisterPageWithoutProvidingfeild TEST END  ============================================
+2024-03-26 15:22:47 INFO  Log:11 - =====================================Verify_Allfieldhave_proper_Placeholder TEST START =========================================
+2024-03-26 15:22:48 INFO  Log:15 - ======================================Verify_Allfieldhave_proper_Placeholder TEST END  ============================================
+2024-03-26 15:22:56 INFO  Log:11 - =====================================Test_PrivacyPolicyCheckbox_notselected_Bydefault TEST START =========================================
+2024-03-26 15:22:57 INFO  Log:15 - ======================================Test_PrivacyPolicyCheckbox_notselected_Bydefault TEST END  ============================================
+2024-03-26 15:23:05 INFO  Log:11 - =====================================Test_RegisterAccount_withoutSelcting_privacyPolicycheckbox TEST START =========================================
+2024-03-26 15:23:10 INFO  Log:15 - ======================================Test_RegisterAccount_withoutSelcting_privacyPolicycheckbox TEST END  ============================================
+2024-03-26 15:23:18 INFO  Log:11 - =====================================TC_Rf_025_VerifyBreadcrumb TEST START =========================================
+2024-03-26 15:23:19 INFO  Log:15 - ======================================TC_Rf_025_VerifyBreadcrumb TEST END  ============================================
+2024-03-26 15:23:26 INFO  Log:11 - =====================================TC_RF_023_VerificationOfOtherNavigationPageLink TEST START =========================================
+2024-03-26 15:23:32 INFO  Log:15 - ======================================TC_RF_023_VerificationOfOtherNavigationPageLink TEST END  ============================================
+2024-03-26 15:23:40 INFO  Log:11 - =====================================TC_RF_008_VerifyregisterFucnalityDiffrentpassAndPassconfirm TEST START =========================================
+2024-03-26 15:23:42 INFO  Log:15 - ======================================TC_RF_008_VerifyregisterFucnalityDiffrentpassAndPassconfirm TEST END  ============================================
+2024-03-26 15:23:49 INFO  Log:11 - =====================================TC_RF_008_VerifyregisterFucnalityDiffrentpassAndPassconfirmisBlank TEST START =========================================
+2024-03-26 15:23:54 INFO  Log:15 - ======================================TC_RF_008_VerifyregisterFucnalityDiffrentpassAndPassconfirmisBlank TEST END  ============================================
+2024-03-26 15:23:54 INFO  Log:22 - Browser Got launch
+2024-03-26 15:24:01 INFO  Log:11 - =====================================verifySearchWithExistingProduct TEST START =========================================
+2024-03-26 15:24:01 INFO  Log:22 - Entering valid product into the Serachbox Textbox
+2024-03-26 15:24:03 INFO  Log:22 - SearchButton clicked
+2024-03-26 15:24:03 INFO  Log:22 - Validation Start for verifySearchWithExistingProductTest
+2024-03-26 15:24:03 INFO  Log:22 - validation End for verifySearchWithExistingProductTest
+2024-03-26 15:24:03 INFO  Log:15 - ======================================verifySearchWithExistingProduct TEST END  ============================================
+2024-03-26 15:24:04 INFO  Log:22 - Browser Got closed
+2024-03-26 15:24:04 INFO  Log:22 - Browser Got launch
+2024-03-26 15:24:11 INFO  Log:11 - =====================================verifySearchWithNonExistingProduct TEST START =========================================
+2024-03-26 15:24:11 INFO  Log:22 - Entering Invalid product into the Serachbox Textbox
+2024-03-26 15:24:12 INFO  Log:22 - SearchButton clicked
+2024-03-26 15:24:15 INFO  Log:22 - Validation Start for verifySearchWithNonExistingProductTest
+2024-03-26 15:24:15 INFO  Log:22 - validation End for verifySearchWithNonExistingProductTest
+2024-03-26 15:24:15 INFO  Log:15 - ======================================verifySearchWithNonExistingProduct TEST END  ============================================
+2024-03-26 15:24:15 INFO  Log:22 - Browser Got closed
+2024-03-26 15:24:15 INFO  Log:22 - Browser Got launch
+2024-03-26 15:24:22 INFO  Log:11 - =====================================verifySearchWithoutEntringProduct TEST START =========================================
+2024-03-26 15:24:23 INFO  Log:22 - SearchButton clicked
+2024-03-26 15:24:26 INFO  Log:22 - Validation Start for verifySearchWithoutEntringProductTest
+2024-03-26 15:24:26 INFO  Log:22 - validation End for verifySearchWithoutEntringProductTest
+2024-03-26 15:24:26 INFO  Log:15 - ======================================verifySearchWithoutEntringProduct TEST END  ============================================
+2024-03-26 15:24:26 INFO  Log:22 - Browser Got closed
+2024-03-26 15:24:26 INFO  Log:22 - Browser Got launch
+2024-03-26 15:24:34 INFO  Log:11 - =====================================Tc_005_verifySearchWithoutEntringProductForPlaceholder TEST START =========================================
+2024-03-26 15:24:35 INFO  Log:22 - SearchButton clicked
+2024-03-26 15:24:38 INFO  Log:22 - Validation Start for Tc_005_verifySearchWithoutEntringProductForPlaceholderTest
+2024-03-26 15:24:38 INFO  Log:22 - validation End for Tc_005_verifySearchWithoutEntringProductForPlaceholderTest
+2024-03-26 15:24:38 INFO  Log:15 - ======================================verifySearchWithoutEntringProduct TEST END  ============================================
+2024-03-26 15:24:38 INFO  Log:22 - Browser Got closed
+2024-03-26 15:24:38 INFO  Log:22 - Browser Got launch
+2024-03-26 15:24:46 INFO  Log:11 - =====================================TC_Sf_007_Searchusing_serachcriteria_textbox TEST START =========================================
+2024-03-26 15:24:46 INFO  Log:22 - SearchButton clicked
+2024-03-26 15:24:49 INFO  Log:22 - Validation Start for TC_Sf_007_Searchusing_serachcriteria_textboxTest
+2024-03-26 15:24:49 INFO  Log:22 - Entering valid product into the SerachCriteria Textbox
+2024-03-26 15:24:49 INFO  Log:22 - Click on Search Button of crietria search
+2024-03-26 15:24:50 INFO  Log:22 - Validation Start for TC_Sf_007_Searchusing_serachcriteria_textboxTest
+2024-03-26 15:24:50 INFO  Log:22 - validation End for TC_Sf_007_Searchusing_serachcriteria_textboxTest
+2024-03-26 15:24:50 INFO  Log:15 - ======================================TC_Sf_007_Searchusing_serachcriteria_textbox TEST END  ============================================
+2024-03-26 15:24:51 INFO  Log:22 - Browser Got closed
+2024-03-26 15:24:51 INFO  Log:22 - Browser Got launched
+2024-03-26 15:24:57 INFO  Log:22 - Broswer Launched successfully
+2024-03-26 15:24:57 INFO  Log:22 - Click on MyAccount Link
+2024-03-26 15:24:57 INFO  Log:22 - Click On Login Link
+2024-03-26 15:24:58 INFO  Log:11 - =====================================TC_LF_006_Forgottenpassword TEST START =========================================
+2024-03-26 15:24:58 INFO  Log:22 - Validation stared
+2024-03-26 15:24:59 INFO  Log:22 - valodation Done successfully
+2024-03-26 15:24:59 INFO  Log:15 - ======================================TC_LF_006_Forgottenpassword TEST END  ============================================
+2024-03-26 15:24:59 INFO  Log:22 - Driver got Closed
+2024-03-26 15:24:59 INFO  Log:22 - Browser Got launched
+2024-03-26 15:25:06 INFO  Log:22 - Broswer Launched successfully
+2024-03-26 15:25:06 INFO  Log:22 - Click on MyAccount Link
+2024-03-26 15:25:08 INFO  Log:22 - Click On Login Link
+2024-03-26 15:25:09 INFO  Log:11 - =====================================TC_LF_008_PlaceholderVisibilityTest TEST START =========================================
+2024-03-26 15:25:09 INFO  Log:22 - Getting username placeholder text
+2024-03-26 15:25:09 INFO  Log:22 - getting password placeholder text
+2024-03-26 15:25:14 INFO  Log:22 - Validation stared
+2024-03-26 15:25:14 INFO  Log:22 - Validation done successfully
+2024-03-26 15:25:14 INFO  Log:15 - ======================================TC_LF_008_PlaceholderVisibilityTest TEST END  ============================================
+2024-03-26 15:25:14 INFO  Log:22 - Driver got Closed
+2024-03-26 15:25:15 DEBUG cache:45 - Couldn't find template in cache for "spark/spark.spa.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2024-03-26 15:25:15 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/spark.spa_en_IN.ftl"): Not found
+2024-03-26 15:25:15 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/spark.spa_en.ftl"): Not found
+2024-03-26 15:25:15 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/spark.spa.ftl"): Found
+2024-03-26 15:25:15 DEBUG cache:45 - Loading template for "spark/spark.spa.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/sai/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/spark.spa.ftl"
+2024-03-26 15:25:15 DEBUG cache:45 - Couldn't find template in cache for "commons/commons-variables.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2024-03-26 15:25:15 DEBUG cache:45 - TemplateLoader.findTemplateSource("commons/commons-variables_en_IN.ftl"): Not found
+2024-03-26 15:25:15 DEBUG cache:45 - TemplateLoader.findTemplateSource("commons/commons-variables_en.ftl"): Not found
+2024-03-26 15:25:15 DEBUG cache:45 - TemplateLoader.findTemplateSource("commons/commons-variables.ftl"): Found
+2024-03-26 15:25:15 DEBUG cache:45 - Loading template for "commons/commons-variables.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/sai/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/commons/commons-variables.ftl"
+2024-03-26 15:25:16 DEBUG cache:45 - Couldn't find template in cache for "commons/commons-macros.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2024-03-26 15:25:16 DEBUG cache:45 - TemplateLoader.findTemplateSource("commons/commons-macros_en_IN.ftl"): Not found
+2024-03-26 15:25:16 DEBUG cache:45 - TemplateLoader.findTemplateSource("commons/commons-macros_en.ftl"): Not found
+2024-03-26 15:25:16 DEBUG cache:45 - TemplateLoader.findTemplateSource("commons/commons-macros.ftl"): Found
+2024-03-26 15:25:16 DEBUG cache:45 - Loading template for "commons/commons-macros.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/sai/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/commons/commons-macros.ftl"
+2024-03-26 15:25:16 DEBUG cache:45 - Couldn't find template in cache for "spark/macros/attributes.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2024-03-26 15:25:16 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/macros/attributes_en_IN.ftl"): Not found
+2024-03-26 15:25:16 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/macros/attributes_en.ftl"): Not found
+2024-03-26 15:25:16 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/macros/attributes.ftl"): Found
+2024-03-26 15:25:16 DEBUG cache:45 - Loading template for "spark/macros/attributes.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/sai/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/macros/attributes.ftl"
+2024-03-26 15:25:16 DEBUG cache:45 - Couldn't find template in cache for "spark/macros/log.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2024-03-26 15:25:16 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/macros/log_en_IN.ftl"): Not found
+2024-03-26 15:25:16 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/macros/log_en.ftl"): Not found
+2024-03-26 15:25:16 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/macros/log.ftl"): Found
+2024-03-26 15:25:16 DEBUG cache:45 - Loading template for "spark/macros/log.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/sai/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/macros/log.ftl"
+2024-03-26 15:25:16 DEBUG cache:45 - Couldn't find template in cache for "spark/macros/recurse_nodes.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2024-03-26 15:25:16 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes_en_IN.ftl"): Not found
+2024-03-26 15:25:16 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes_en.ftl"): Not found
+2024-03-26 15:25:16 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes.ftl"): Found
+2024-03-26 15:25:16 DEBUG cache:45 - Loading template for "spark/macros/recurse_nodes.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/sai/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/macros/recurse_nodes.ftl"
+2024-03-26 15:25:16 DEBUG cache:45 - "spark/macros/log.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2024-03-26 15:25:16 DEBUG cache:45 - Couldn't find template in cache for "spark/macros/attr-common.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2024-03-26 15:25:16 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/macros/attr-common_en_IN.ftl"): Not found
+2024-03-26 15:25:16 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/macros/attr-common_en.ftl"): Not found
+2024-03-26 15:25:16 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/macros/attr-common.ftl"): Found
+2024-03-26 15:25:16 DEBUG cache:45 - Loading template for "spark/macros/attr-common.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/sai/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/macros/attr-common.ftl"
+2024-03-26 15:25:16 DEBUG cache:45 - Couldn't find template in cache for "spark/partials/head.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2024-03-26 15:25:16 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/head_en_IN.ftl"): Not found
+2024-03-26 15:25:16 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/head_en.ftl"): Not found
+2024-03-26 15:25:16 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/head.ftl"): Found
+2024-03-26 15:25:16 DEBUG cache:45 - Loading template for "spark/partials/head.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/sai/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/head.ftl"
+2024-03-26 15:25:16 DEBUG cache:45 - Couldn't find template in cache for "commons/commons-inject-css.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2024-03-26 15:25:16 DEBUG cache:45 - TemplateLoader.findTemplateSource("commons/commons-inject-css_en_IN.ftl"): Not found
+2024-03-26 15:25:16 DEBUG cache:45 - TemplateLoader.findTemplateSource("commons/commons-inject-css_en.ftl"): Not found
+2024-03-26 15:25:16 DEBUG cache:45 - TemplateLoader.findTemplateSource("commons/commons-inject-css.ftl"): Found
+2024-03-26 15:25:16 DEBUG cache:45 - Loading template for "commons/commons-inject-css.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/sai/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/commons/commons-inject-css.ftl"
+2024-03-26 15:25:16 DEBUG cache:45 - Couldn't find template in cache for "spark/partials/navbar.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2024-03-26 15:25:16 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/navbar_en_IN.ftl"): Not found
+2024-03-26 15:25:16 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/navbar_en.ftl"): Not found
+2024-03-26 15:25:16 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/navbar.ftl"): Found
+2024-03-26 15:25:16 DEBUG cache:45 - Loading template for "spark/partials/navbar.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/sai/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/navbar.ftl"
+2024-03-26 15:25:16 DEBUG cache:45 - Couldn't find template in cache for "spark/partials/sidenav.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2024-03-26 15:25:16 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/sidenav_en_IN.ftl"): Not found
+2024-03-26 15:25:16 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/sidenav_en.ftl"): Not found
+2024-03-26 15:25:16 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/sidenav.ftl"): Found
+2024-03-26 15:25:16 DEBUG cache:45 - Loading template for "spark/partials/sidenav.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/sai/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/sidenav.ftl"
+2024-03-26 15:25:16 DEBUG cache:45 - Couldn't find template in cache for "spark/partials/test.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2024-03-26 15:25:16 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/test_en_IN.ftl"): Not found
+2024-03-26 15:25:16 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/test_en.ftl"): Not found
+2024-03-26 15:25:16 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/test.ftl"): Found
+2024-03-26 15:25:16 DEBUG cache:45 - Loading template for "spark/partials/test.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/sai/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/test.ftl"
+2024-03-26 15:25:16 DEBUG cache:45 - Couldn't find template in cache for "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2024-03-26 15:25:16 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/standard-content_en_IN.ftl"): Not found
+2024-03-26 15:25:16 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/standard-content_en.ftl"): Not found
+2024-03-26 15:25:16 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/standard-content.ftl"): Found
+2024-03-26 15:25:16 DEBUG cache:45 - Loading template for "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/sai/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/standard-content.ftl"
+2024-03-26 15:25:16 DEBUG cache:45 - "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2024-03-26 15:25:16 DEBUG cache:45 - "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2024-03-26 15:25:16 DEBUG cache:45 - "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2024-03-26 15:25:16 DEBUG cache:45 - "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2024-03-26 15:25:16 DEBUG cache:45 - "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2024-03-26 15:25:16 DEBUG cache:45 - "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2024-03-26 15:25:16 DEBUG cache:45 - "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2024-03-26 15:25:16 DEBUG cache:45 - "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2024-03-26 15:25:16 DEBUG cache:45 - "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2024-03-26 15:25:16 DEBUG cache:45 - "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2024-03-26 15:25:16 DEBUG cache:45 - "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2024-03-26 15:25:16 DEBUG cache:45 - "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2024-03-26 15:25:16 DEBUG cache:45 - "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2024-03-26 15:25:16 DEBUG cache:45 - "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2024-03-26 15:25:16 DEBUG cache:45 - "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2024-03-26 15:25:16 DEBUG cache:45 - "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2024-03-26 15:25:16 DEBUG cache:45 - "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2024-03-26 15:25:16 DEBUG cache:45 - Couldn't find template in cache for "spark/partials/exception.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2024-03-26 15:25:16 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/exception_en_IN.ftl"): Not found
+2024-03-26 15:25:16 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/exception_en.ftl"): Not found
+2024-03-26 15:25:16 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/exception.ftl"): Found
+2024-03-26 15:25:16 DEBUG cache:45 - Loading template for "spark/partials/exception.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/sai/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/exception.ftl"
+2024-03-26 15:25:16 DEBUG cache:45 - Couldn't find template in cache for "spark/partials/category.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2024-03-26 15:25:16 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/category_en_IN.ftl"): Not found
+2024-03-26 15:25:16 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/category_en.ftl"): Not found
+2024-03-26 15:25:16 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/category.ftl"): Found
+2024-03-26 15:25:16 DEBUG cache:45 - Loading template for "spark/partials/category.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/sai/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/category.ftl"
+2024-03-26 15:25:16 DEBUG cache:45 - Couldn't find template in cache for "spark/partials/device.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2024-03-26 15:25:16 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/device_en_IN.ftl"): Not found
+2024-03-26 15:25:16 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/device_en.ftl"): Not found
+2024-03-26 15:25:16 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/device.ftl"): Found
+2024-03-26 15:25:16 DEBUG cache:45 - Loading template for "spark/partials/device.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/sai/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/device.ftl"
+2024-03-26 15:25:16 DEBUG cache:45 - Couldn't find template in cache for "spark/partials/author.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2024-03-26 15:25:16 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/author_en_IN.ftl"): Not found
+2024-03-26 15:25:16 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/author_en.ftl"): Not found
+2024-03-26 15:25:16 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/author.ftl"): Found
+2024-03-26 15:25:16 DEBUG cache:45 - Loading template for "spark/partials/author.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/sai/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/author.ftl"
+2024-03-26 15:25:16 DEBUG cache:45 - Couldn't find template in cache for "spark/partials/log.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2024-03-26 15:25:16 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/log_en_IN.ftl"): Not found
+2024-03-26 15:25:16 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/log_en.ftl"): Not found
+2024-03-26 15:25:16 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/log.ftl"): Found
+2024-03-26 15:25:16 DEBUG cache:45 - Loading template for "spark/partials/log.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/sai/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/log.ftl"
+2024-03-26 15:25:16 DEBUG cache:45 - Couldn't find template in cache for "spark/partials/dashboard.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2024-03-26 15:25:16 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/dashboard_en_IN.ftl"): Not found
+2024-03-26 15:25:16 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/dashboard_en.ftl"): Not found
+2024-03-26 15:25:16 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/dashboard.ftl"): Found
+2024-03-26 15:25:16 DEBUG cache:45 - Loading template for "spark/partials/dashboard.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/sai/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/dashboard.ftl"
+2024-03-26 15:25:16 DEBUG cache:45 - Couldn't find template in cache for "spark/partials/scripts.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2024-03-26 15:25:16 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/scripts_en_IN.ftl"): Not found
+2024-03-26 15:25:16 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/scripts_en.ftl"): Not found
+2024-03-26 15:25:16 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/scripts.ftl"): Found
+2024-03-26 15:25:16 DEBUG cache:45 - Loading template for "spark/partials/scripts.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/sai/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/scripts.ftl"
+2024-03-26 15:25:16 DEBUG cache:45 - Couldn't find template in cache for "commons/commons-inject-js.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2024-03-26 15:25:16 DEBUG cache:45 - TemplateLoader.findTemplateSource("commons/commons-inject-js_en_IN.ftl"): Not found
+2024-03-26 15:25:16 DEBUG cache:45 - TemplateLoader.findTemplateSource("commons/commons-inject-js_en.ftl"): Not found
+2024-03-26 15:25:16 DEBUG cache:45 - TemplateLoader.findTemplateSource("commons/commons-inject-js.ftl"): Found
+2024-03-26 15:25:16 DEBUG cache:45 - Loading template for "commons/commons-inject-js.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/sai/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/commons/commons-inject-js.ftl"

@@ -1,31 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="67.644" tests="3" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="237.926" tests="19" errors="0" skipped="1" failures="0">
   <properties>
     <property name="java.specification.version" value="19"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\apache-maven-3.8.5\apache-maven-3.8.5\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.class.path" value="C:\Users\sai\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755\jars\plexus-classworlds-2.7.0.jar"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
     <property name="java.vendor.url" value="https://java.oracle.com/"/>
     <property name="user.timezone" value="Asia/Calcutta"/>
-    <property name="maven.conf" value="C:\apache-maven-3.8.5\apache-maven-3.8.5/conf"/>
     <property name="java.vm.specification.version" value="19"/>
     <property name="os.name" value="Windows 10"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-19\bin"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B -Dstyle.color=always test"/>
     <property name="jdk.debug" value="release"/>
-    <property name="maven.home" value="C:\apache-maven-3.8.5\apache-maven-3.8.5"/>
+    <property name="maven.home" value="C:\Users\sai\git\EcommerseAutomation\EcommerseApplication2\EMBEDDED"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\sai"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="jansi.mode" value="force"/>
     <property name="java.version.date" value="2022-10-18"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-19"/>
     <property name="file.separator" value="\"/>
+    <property name="style.color" value="always"/>
     <property name="java.vm.compressedOopsMode" value="32-bit"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
@@ -34,7 +35,7 @@
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="19.0.1+10-21"/>
     <property name="user.name" value="Tejal"/>
-    <property name="stdout.encoding" value="cp437"/>
+    <property name="stdout.encoding" value="UTF-8"/>
     <property name="path.separator" value=";"/>
     <property name="os.version" value="10.0"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -44,23 +45,121 @@
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\sai\AppData\Local\Temp\"/>
     <property name="java.version" value="19.0.1"/>
-    <property name="user.dir" value="C:\Users\sai\git\Ecommerse\EcommerseApplication2"/>
+    <property name="user.dir" value="C:\Users\sai\git\EcommerseAutomation\EcommerseApplication2"/>
     <property name="os.arch" value="amd64"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\Users\sai\git\Ecommerse\EcommerseApplication2"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\sai\git\EcommerseAutomation\EcommerseApplication2"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
+    <property name="m2e.build.project.data.socket.port" value="51431"/>
     <property name="native.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-19\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jdk-19/bin/server;C:/Program Files/Java/jdk-19/bin;C:\Program Files\Common Files\Oracle\Java\javapath;F:\oracle\app\oracle\product\11.2.0\server\bin;C:\Program Files\Microsoft MPI\Bin\;C:\Users\sai\python3.7\Scripts\;C:\Users\sai\python3.7\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;c:\Program Files\Intel\WiFi\bin\;c:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\MongoDB\Server\4.4\bin\;C:\apache-maven-3.6.3\bin;C:\Program Files\Jenkins;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\apache-maven-3.8.5\apache-maven-3.8.5\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-19\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Program Files\MongoDB\Server\4.4\bin\;C:\Program Files\JetBrains\PyCharm Community Edition 2019.1.1\bin\pycharm64.exe;C:\apache-maven-3.8.5\apache-maven-3.8.5\;C:\Program Files\Java\jdk-19\bin\;C:\Users\sai\AppData\Local\Microsoft\WindowsApps;C:\Users\sai\AppData\Roaming\npm;C:\Users\sai\Desktop;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-19\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jdk-19/bin/server;C:/Program Files/Java/jdk-19/bin;C:\oraclexe\app\oracle\product\11.2.0\server\bin;;C:\app\Tejal\product\21c\dbhomeXE\bin;G:\allexcel\tejal\dbhomeXE\bin;C:\Program Files\Common Files\Oracle\Java\javapath;F:\oracle\app\oracle\product\11.2.0\server\bin;C:\Program Files\Microsoft MPI\Bin\;C:\Users\sai\python3.7\Scripts\;C:\Users\sai\python3.7\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;c:\Program Files\Intel\WiFi\bin\;c:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\MongoDB\Server\4.4\bin\;C:\apache-maven-3.6.3\bin;C:\Program Files\Jenkins;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\apache-maven-3.8.5\apache-maven-3.8.5\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-19\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Program Files\MongoDB\Server\4.4\bin\;C:\Program Files\JetBrains\PyCharm Community Edition 2019.1.1\bin\pycharm64.exe;C:\apache-maven-3.8.5\apache-maven-3.8.5\;C:\Program Files\Java\jdk-19\bin\;C:\Users\sai\AppData\Local\Microsoft\WindowsApps;C:\Users\sai\AppData\Roaming\npm;C:\Users\sai\Desktop;;."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
-    <property name="stderr.encoding" value="cp437"/>
+    <property name="stderr.encoding" value="UTF-8"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="java.vm.version" value="19.0.1+10-21"/>
-    <property name="classworlds.conf" value="C:\apache-maven-3.8.5\apache-maven-3.8.5\bin\m2.conf"/>
+    <property name="classworlds.conf" value="C:\Users\sai\eclipse-TejalWorkspace24\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf17942537200134304358.tmp"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="library.jansi.path" value="C:\apache-maven-3.8.5\apache-maven-3.8.5\lib\jansi-native"/>
     <property name="java.class.version" value="63.0"/>
   </properties>
-  <testcase name="verifySearchWithExistingProduct" classname="com.EcommerseApplication.testCases.SearchTest" time="2.16"/>
-  <testcase name="verifySearchWithNonExistingProduct" classname="com.EcommerseApplication.testCases.SearchTest" time="4.603"/>
-  <testcase name="verifySearchWithoutEntringProduct" classname="com.EcommerseApplication.testCases.SearchTest" time="3.357"/>
+  <testcase name="VerifyRegisterAccountWithMandetoryField" classname="com.EcommerseApplication.testCases.registerTest" time="4.576"/>
+  <testcase name="VerifyRegisterAccountWithAllField" classname="com.EcommerseApplication.testCases.registerTest" time="3.647"/>
+  <testcase name="verifyRegisterPageWithExsitingEmail" classname="com.EcommerseApplication.testCases.registerTest" time="3.143"/>
+  <testcase name="verifyRegisterPageWithoutProvidingfeild" classname="com.EcommerseApplication.testCases.registerTest" time="2.058"/>
+  <testcase name="Verify_Allfieldhave_proper_Placeholder" classname="com.EcommerseApplication.testCases.registerTest" time="1.714"/>
+  <testcase name="Test_PrivacyPolicyCheckbox_notselected_Bydefault" classname="com.EcommerseApplication.testCases.registerTest" time="1.138"/>
+  <testcase name="Test_RegisterAccount_withoutSelcting_privacyPolicycheckbox" classname="com.EcommerseApplication.testCases.registerTest" time="5.355"/>
+  <testcase name="TC_Rf_025_VerifyBreadcrumb" classname="com.EcommerseApplication.testCases.registerTest" time="1.228"/>
+  <testcase name="TC_RF_023_VerificationOfOtherNavigationPageLink" classname="com.EcommerseApplication.testCases.registerTest" time="5.785"/>
+  <testcase name="TC_RF_008_VerifyregisterFucnalityDiffrentpassAndPassconfirm" classname="com.EcommerseApplication.testCases.registerTest" time="1.919"/>
+  <testcase name="TC_RF_008_VerifyregisterFucnalityDiffrentpassAndPassconfirmisBlank" classname="com.EcommerseApplication.testCases.registerTest" time="4.99"/>
+  <testcase name="Tc_001_verifySearchWithExistingProduct" classname="com.EcommerseApplication.testCases.SearchTest" time="1.78"/>
+  <testcase name="Tc_002_verifySearchWithNonExistingProduct" classname="com.EcommerseApplication.testCases.SearchTest" time="4.085"/>
+  <testcase name="Tc_003_verifySearchWithoutEntringProduct" classname="com.EcommerseApplication.testCases.SearchTest" time="3.606"/>
+  <testcase name="Tc_006_verifySearchWithoutEntringProductForPlaceholder" classname="com.EcommerseApplication.testCases.SearchTest" time="3.77"/>
+  <testcase name="TC_Sf_007_Searchusing_serachcriteria_textbox" classname="com.EcommerseApplication.testCases.SearchTest" time="4.627"/>
+  <testcase name="Login" classname="com.EcommerseApplication.testCases.loginTest" time="0">
+    <skipped message="java.lang.NullPointerException: Cannot invoke &quot;org.apache.poi.xssf.usermodel.XSSFWorkbook.getSheet(String)&quot; because &quot;workbook&quot; is null"/>
+    <system-out><![CDATA[2024-03-26 15:24:51 INFO  Log:22 - Browser Got closed
+]]></system-out>
+    <system-err><![CDATA[java.io.FileNotFoundException: C:\Users\sai\git\EcommerseAutomation\EcommerseApplication2\src\main\java\com\EcommerseApplication\TestData\Testdata.xlsx (The system cannot find the file specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:158)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:112)
+	at com.EcommerseApplication.utilis.utilities.getTestDataFromExcel(utilities.java:35)
+	at com.EcommerseApplication.testCases.loginTest.supplyTestData(loginTest.java:55)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:77)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:46)
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:146)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:798)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:740)
+	at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
+	at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:791)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+[Utils] [ERROR] [Error] java.lang.NullPointerException: Cannot invoke &quot;org.apache.poi.xssf.usermodel.XSSFWorkbook.getSheet(String)&quot; because &quot;workbook&quot; is null
+	at com.EcommerseApplication.utilis.utilities.getTestDataFromExcel(utilities.java:42)
+	at com.EcommerseApplication.testCases.loginTest.supplyTestData(loginTest.java:55)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:77)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:46)
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:146)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:798)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:740)
+	at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
+	at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:791)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+
+]]></system-err>
+  </testcase>
+  <testcase name="TC_LF_006_Forgottenpassword" classname="com.EcommerseApplication.testCases.loginTest" time="0.549"/>
+  <testcase name="TC_LF_008_PlaceholderVisibilityTest" classname="com.EcommerseApplication.testCases.loginTest" time="5.098"/>
 </testsuite>

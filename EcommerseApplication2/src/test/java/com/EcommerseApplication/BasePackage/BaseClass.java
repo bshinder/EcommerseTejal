@@ -31,7 +31,7 @@ public class BaseClass {
   
     public static  WebDriver driver;
 	public static Properties prop;
-    public Properties dataProp;
+    public static Properties dataProp;
 
     
 	public  BaseClass()  {

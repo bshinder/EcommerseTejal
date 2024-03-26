@@ -1,53 +1,414 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="8" total="27" passed="18" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-06-09T14:17:51 IST" name="EcommerseApplication Suite" finished-at="2023-06-09T14:18:52 IST" duration-ms="61162">
+  <suite started-at="2024-03-26T15:21:25 IST" name="Suite" finished-at="2024-03-26T15:25:15 IST" duration-ms="229352">
     <groups>
     </groups>
-    <test started-at="2023-06-09T14:17:51 IST" name="EcommerseApplication Test" finished-at="2023-06-09T14:18:52 IST" duration-ms="61162">
-      <class name="com.EcommerseApplication.testCases.SearchTest">
-        <test-method is-config="true" signature="beforesuite()[pri:0, instance:com.EcommerseApplication.testCases.SearchTest@d4342c2]" started-at="2023-06-09T14:17:50 IST" name="beforesuite" finished-at="2023-06-09T14:17:51 IST" duration-ms="214" status="PASS">
+    <test started-at="2024-03-26T15:21:25 IST" name="CrossBrowser" finished-at="2024-03-26T15:25:15 IST" duration-ms="229352">
+      <class name="com.EcommerseApplication.testCases.registerTest">
+        <test-method is-config="true" signature="beforesuite()[pri:0, instance:com.EcommerseApplication.testCases.registerTest@7c0c77c7]" started-at="2024-03-26T15:21:25 IST" name="beforesuite" finished-at="2024-03-26T15:21:25 IST" duration-ms="182" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforesuite -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.EcommerseApplication.testCases.SearchTest@d4342c2]" started-at="2023-06-09T14:17:51 IST" name="setUp" finished-at="2023-06-09T14:18:22 IST" duration-ms="30958" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.EcommerseApplication.testCases.registerTest@7c0c77c7]" started-at="2024-03-26T15:21:26 IST" name="setUp" finished-at="2024-03-26T15:21:38 IST" duration-ms="11963" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifySearchWithExistingProduct()[pri:1, instance:com.EcommerseApplication.testCases.SearchTest@d4342c2]" started-at="2023-06-09T14:18:22 IST" name="verifySearchWithExistingProduct" finished-at="2023-06-09T14:18:24 IST" duration-ms="2129" status="PASS">
+        <test-method signature="VerifyRegisterAccountWithMandetoryField()[pri:1, instance:com.EcommerseApplication.testCases.registerTest@7c0c77c7]" started-at="2024-03-26T15:21:38 IST" name="VerifyRegisterAccountWithMandetoryField" finished-at="2024-03-26T15:21:42 IST" duration-ms="4573" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifySearchWithExistingProduct -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.EcommerseApplication.testCases.SearchTest@d4342c2]" started-at="2023-06-09T14:18:24 IST" name="tearDown" finished-at="2023-06-09T14:18:25 IST" duration-ms="901" status="PASS">
+        </test-method> <!-- VerifyRegisterAccountWithMandetoryField -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.EcommerseApplication.testCases.registerTest@7c0c77c7]" started-at="2024-03-26T15:21:42 IST" name="tearDown" finished-at="2024-03-26T15:21:45 IST" duration-ms="2609" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.EcommerseApplication.testCases.SearchTest@d4342c2]" started-at="2023-06-09T14:18:25 IST" name="setUp" finished-at="2023-06-09T14:18:34 IST" duration-ms="8789" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.EcommerseApplication.testCases.registerTest@7c0c77c7]" started-at="2024-03-26T15:21:45 IST" name="setUp" finished-at="2024-03-26T15:21:57 IST" duration-ms="12322" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifySearchWithNonExistingProduct()[pri:2, instance:com.EcommerseApplication.testCases.SearchTest@d4342c2]" started-at="2023-06-09T14:18:34 IST" name="verifySearchWithNonExistingProduct" finished-at="2023-06-09T14:18:39 IST" duration-ms="4602" status="PASS">
+        <test-method signature="VerifyRegisterAccountWithAllField()[pri:2, instance:com.EcommerseApplication.testCases.registerTest@7c0c77c7]" started-at="2024-03-26T15:21:57 IST" name="VerifyRegisterAccountWithAllField" finished-at="2024-03-26T15:22:01 IST" duration-ms="3645" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifySearchWithNonExistingProduct -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.EcommerseApplication.testCases.SearchTest@d4342c2]" started-at="2023-06-09T14:18:39 IST" name="tearDown" finished-at="2023-06-09T14:18:41 IST" duration-ms="2188" status="PASS">
+        </test-method> <!-- VerifyRegisterAccountWithAllField -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.EcommerseApplication.testCases.registerTest@7c0c77c7]" started-at="2024-03-26T15:22:01 IST" name="tearDown" finished-at="2024-03-26T15:22:05 IST" duration-ms="3787" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.EcommerseApplication.testCases.SearchTest@d4342c2]" started-at="2023-06-09T14:18:41 IST" name="setUp" finished-at="2023-06-09T14:18:48 IST" duration-ms="7263" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.EcommerseApplication.testCases.registerTest@7c0c77c7]" started-at="2024-03-26T15:22:05 IST" name="setUp" finished-at="2024-03-26T15:22:16 IST" duration-ms="11199" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifySearchWithoutEntringProduct()[pri:3, instance:com.EcommerseApplication.testCases.SearchTest@d4342c2]" started-at="2023-06-09T14:18:48 IST" name="verifySearchWithoutEntringProduct" finished-at="2023-06-09T14:18:51 IST" duration-ms="3354" status="PASS">
+        <test-method signature="verifyRegisterPageWithExsitingEmail()[pri:3, instance:com.EcommerseApplication.testCases.registerTest@7c0c77c7]" started-at="2024-03-26T15:22:16 IST" name="verifyRegisterPageWithExsitingEmail" finished-at="2024-03-26T15:22:19 IST" duration-ms="3143" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifySearchWithoutEntringProduct -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.EcommerseApplication.testCases.SearchTest@d4342c2]" started-at="2023-06-09T14:18:51 IST" name="tearDown" finished-at="2023-06-09T14:18:52 IST" duration-ms="371" status="PASS">
+        </test-method> <!-- verifyRegisterPageWithExsitingEmail -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.EcommerseApplication.testCases.registerTest@7c0c77c7]" started-at="2024-03-26T15:22:19 IST" name="tearDown" finished-at="2024-03-26T15:22:21 IST" duration-ms="1834" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.EcommerseApplication.testCases.registerTest@7c0c77c7]" started-at="2024-03-26T15:22:21 IST" name="setUp" finished-at="2024-03-26T15:22:35 IST" duration-ms="14359" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyRegisterPageWithoutProvidingfeild()[pri:4, instance:com.EcommerseApplication.testCases.registerTest@7c0c77c7]" started-at="2024-03-26T15:22:35 IST" name="verifyRegisterPageWithoutProvidingfeild" finished-at="2024-03-26T15:22:37 IST" duration-ms="2058" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisterPageWithoutProvidingfeild -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.EcommerseApplication.testCases.registerTest@7c0c77c7]" started-at="2024-03-26T15:22:37 IST" name="tearDown" finished-at="2024-03-26T15:22:38 IST" duration-ms="545" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.EcommerseApplication.testCases.registerTest@7c0c77c7]" started-at="2024-03-26T15:22:38 IST" name="setUp" finished-at="2024-03-26T15:22:47 IST" duration-ms="9089" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Verify_Allfieldhave_proper_Placeholder()[pri:5, instance:com.EcommerseApplication.testCases.registerTest@7c0c77c7]" started-at="2024-03-26T15:22:47 IST" name="Verify_Allfieldhave_proper_Placeholder" finished-at="2024-03-26T15:22:48 IST" duration-ms="1715" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Allfieldhave_proper_Placeholder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.EcommerseApplication.testCases.registerTest@7c0c77c7]" started-at="2024-03-26T15:22:48 IST" name="tearDown" finished-at="2024-03-26T15:22:50 IST" duration-ms="1309" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.EcommerseApplication.testCases.registerTest@7c0c77c7]" started-at="2024-03-26T15:22:50 IST" name="setUp" finished-at="2024-03-26T15:22:56 IST" duration-ms="6512" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Test_PrivacyPolicyCheckbox_notselected_Bydefault()[pri:6, instance:com.EcommerseApplication.testCases.registerTest@7c0c77c7]" started-at="2024-03-26T15:22:56 IST" name="Test_PrivacyPolicyCheckbox_notselected_Bydefault" finished-at="2024-03-26T15:22:57 IST" duration-ms="1138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_PrivacyPolicyCheckbox_notselected_Bydefault -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.EcommerseApplication.testCases.registerTest@7c0c77c7]" started-at="2024-03-26T15:22:57 IST" name="tearDown" finished-at="2024-03-26T15:22:58 IST" duration-ms="351" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.EcommerseApplication.testCases.registerTest@7c0c77c7]" started-at="2024-03-26T15:22:58 IST" name="setUp" finished-at="2024-03-26T15:23:05 IST" duration-ms="7007" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Test_RegisterAccount_withoutSelcting_privacyPolicycheckbox()[pri:7, instance:com.EcommerseApplication.testCases.registerTest@7c0c77c7]" started-at="2024-03-26T15:23:05 IST" name="Test_RegisterAccount_withoutSelcting_privacyPolicycheckbox" finished-at="2024-03-26T15:23:10 IST" duration-ms="5355" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_RegisterAccount_withoutSelcting_privacyPolicycheckbox -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.EcommerseApplication.testCases.registerTest@7c0c77c7]" started-at="2024-03-26T15:23:10 IST" name="tearDown" finished-at="2024-03-26T15:23:11 IST" duration-ms="439" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.EcommerseApplication.testCases.registerTest@7c0c77c7]" started-at="2024-03-26T15:23:11 IST" name="setUp" finished-at="2024-03-26T15:23:18 IST" duration-ms="7126" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC_Rf_025_VerifyBreadcrumb()[pri:8, instance:com.EcommerseApplication.testCases.registerTest@7c0c77c7]" started-at="2024-03-26T15:23:18 IST" name="TC_Rf_025_VerifyBreadcrumb" finished-at="2024-03-26T15:23:19 IST" duration-ms="1228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_Rf_025_VerifyBreadcrumb -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.EcommerseApplication.testCases.registerTest@7c0c77c7]" started-at="2024-03-26T15:23:19 IST" name="tearDown" finished-at="2024-03-26T15:23:19 IST" duration-ms="331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.EcommerseApplication.testCases.registerTest@7c0c77c7]" started-at="2024-03-26T15:23:19 IST" name="setUp" finished-at="2024-03-26T15:23:26 IST" duration-ms="6575" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC_RF_023_VerificationOfOtherNavigationPageLink()[pri:9, instance:com.EcommerseApplication.testCases.registerTest@7c0c77c7]" started-at="2024-03-26T15:23:26 IST" name="TC_RF_023_VerificationOfOtherNavigationPageLink" finished-at="2024-03-26T15:23:32 IST" duration-ms="5782" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_RF_023_VerificationOfOtherNavigationPageLink -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.EcommerseApplication.testCases.registerTest@7c0c77c7]" started-at="2024-03-26T15:23:32 IST" name="tearDown" finished-at="2024-03-26T15:23:32 IST" duration-ms="365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.EcommerseApplication.testCases.registerTest@7c0c77c7]" started-at="2024-03-26T15:23:32 IST" name="setUp" finished-at="2024-03-26T15:23:40 IST" duration-ms="7910" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC_RF_008_VerifyregisterFucnalityDiffrentpassAndPassconfirm()[pri:10, instance:com.EcommerseApplication.testCases.registerTest@7c0c77c7]" started-at="2024-03-26T15:23:40 IST" name="TC_RF_008_VerifyregisterFucnalityDiffrentpassAndPassconfirm" finished-at="2024-03-26T15:23:42 IST" duration-ms="1919" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_RF_008_VerifyregisterFucnalityDiffrentpassAndPassconfirm -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.EcommerseApplication.testCases.registerTest@7c0c77c7]" started-at="2024-03-26T15:23:42 IST" name="tearDown" finished-at="2024-03-26T15:23:42 IST" duration-ms="331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.EcommerseApplication.testCases.registerTest@7c0c77c7]" started-at="2024-03-26T15:23:42 IST" name="setUp" finished-at="2024-03-26T15:23:49 IST" duration-ms="6826" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC_RF_008_VerifyregisterFucnalityDiffrentpassAndPassconfirmisBlank()[pri:11, instance:com.EcommerseApplication.testCases.registerTest@7c0c77c7]" started-at="2024-03-26T15:23:49 IST" name="TC_RF_008_VerifyregisterFucnalityDiffrentpassAndPassconfirmisBlank" finished-at="2024-03-26T15:23:54 IST" duration-ms="4989" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_RF_008_VerifyregisterFucnalityDiffrentpassAndPassconfirmisBlank -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.EcommerseApplication.testCases.registerTest@7c0c77c7]" started-at="2024-03-26T15:23:54 IST" name="tearDown" finished-at="2024-03-26T15:23:54 IST" duration-ms="353" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.EcommerseApplication.testCases.registerTest -->
+      <class name="com.EcommerseApplication.testCases.loginTest">
+        <test-method signature="Login(java.lang.String,java.lang.String,java.lang.String)[pri:6, instance:com.EcommerseApplication.testCases.loginTest@2ea227af]" started-at="2024-03-26T15:24:51 IST" name="Login" data-provider="validCerdintialsupplier" finished-at="2024-03-26T15:24:51 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.apache.poi.xssf.usermodel.XSSFWorkbook.getSheet(String)" because "workbook" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: java.lang.NullPointerException: Cannot invoke "org.apache.poi.xssf.usermodel.XSSFWorkbook.getSheet(String)" because "workbook" is null
+at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:50)
+at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:146)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:798)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:740)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:791)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.apache.poi.xssf.usermodel.XSSFWorkbook.getSheet(String)" because "workbook" is null
+at com.EcommerseApplication.utilis.utilities.getTestDataFromExcel(utilities.java:42)
+at com.EcommerseApplication.testCases.loginTest.supplyTestData(loginTest.java:55)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:77)
+at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:46)
+... 28 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.EcommerseApplication.testCases.loginTest@2ea227af]" started-at="2024-03-26T15:24:51 IST" name="setUp" finished-at="2024-03-26T15:24:58 IST" duration-ms="7219" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC_LF_006_Forgottenpassword()[pri:7, instance:com.EcommerseApplication.testCases.loginTest@2ea227af]" started-at="2024-03-26T15:24:58 IST" name="TC_LF_006_Forgottenpassword" finished-at="2024-03-26T15:24:59 IST" duration-ms="549" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_LF_006_Forgottenpassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.EcommerseApplication.testCases.loginTest@2ea227af]" started-at="2024-03-26T15:24:59 IST" name="tearDown" finished-at="2024-03-26T15:24:59 IST" duration-ms="363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.EcommerseApplication.testCases.loginTest@2ea227af]" started-at="2024-03-26T15:24:59 IST" name="setUp" finished-at="2024-03-26T15:25:09 IST" duration-ms="10117" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC_LF_008_PlaceholderVisibilityTest()[pri:8, instance:com.EcommerseApplication.testCases.loginTest@2ea227af]" started-at="2024-03-26T15:25:09 IST" name="TC_LF_008_PlaceholderVisibilityTest" finished-at="2024-03-26T15:25:14 IST" duration-ms="5099" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_LF_008_PlaceholderVisibilityTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.EcommerseApplication.testCases.loginTest@2ea227af]" started-at="2024-03-26T15:25:14 IST" name="tearDown" finished-at="2024-03-26T15:25:15 IST" duration-ms="575" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.EcommerseApplication.testCases.loginTest -->
+      <class name="com.EcommerseApplication.testCases.SearchTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.EcommerseApplication.testCases.SearchTest@78e117e3]" started-at="2024-03-26T15:23:54 IST" name="setUp" finished-at="2024-03-26T15:24:01 IST" duration-ms="7012" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Tc_001_verifySearchWithExistingProduct()[pri:1, instance:com.EcommerseApplication.testCases.SearchTest@78e117e3]" started-at="2024-03-26T15:24:01 IST" name="Tc_001_verifySearchWithExistingProduct" finished-at="2024-03-26T15:24:03 IST" duration-ms="1779" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc_001_verifySearchWithExistingProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.EcommerseApplication.testCases.SearchTest@78e117e3]" started-at="2024-03-26T15:24:03 IST" name="tearDown" finished-at="2024-03-26T15:24:04 IST" duration-ms="431" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.EcommerseApplication.testCases.SearchTest@78e117e3]" started-at="2024-03-26T15:24:04 IST" name="setUp" finished-at="2024-03-26T15:24:11 IST" duration-ms="7053" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Tc_002_verifySearchWithNonExistingProduct()[pri:2, instance:com.EcommerseApplication.testCases.SearchTest@78e117e3]" started-at="2024-03-26T15:24:11 IST" name="Tc_002_verifySearchWithNonExistingProduct" finished-at="2024-03-26T15:24:15 IST" duration-ms="4085" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc_002_verifySearchWithNonExistingProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.EcommerseApplication.testCases.SearchTest@78e117e3]" started-at="2024-03-26T15:24:15 IST" name="tearDown" finished-at="2024-03-26T15:24:15 IST" duration-ms="363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.EcommerseApplication.testCases.SearchTest@78e117e3]" started-at="2024-03-26T15:24:15 IST" name="setUp" finished-at="2024-03-26T15:24:22 IST" duration-ms="7286" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Tc_003_verifySearchWithoutEntringProduct()[pri:3, instance:com.EcommerseApplication.testCases.SearchTest@78e117e3]" started-at="2024-03-26T15:24:22 IST" name="Tc_003_verifySearchWithoutEntringProduct" finished-at="2024-03-26T15:24:26 IST" duration-ms="3607" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc_003_verifySearchWithoutEntringProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.EcommerseApplication.testCases.SearchTest@78e117e3]" started-at="2024-03-26T15:24:26 IST" name="tearDown" finished-at="2024-03-26T15:24:26 IST" duration-ms="409" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.EcommerseApplication.testCases.SearchTest@78e117e3]" started-at="2024-03-26T15:24:26 IST" name="setUp" finished-at="2024-03-26T15:24:34 IST" duration-ms="7614" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Tc_006_verifySearchWithoutEntringProductForPlaceholder()[pri:5, instance:com.EcommerseApplication.testCases.SearchTest@78e117e3]" started-at="2024-03-26T15:24:34 IST" name="Tc_006_verifySearchWithoutEntringProductForPlaceholder" finished-at="2024-03-26T15:24:38 IST" duration-ms="3772" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc_006_verifySearchWithoutEntringProductForPlaceholder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.EcommerseApplication.testCases.SearchTest@78e117e3]" started-at="2024-03-26T15:24:38 IST" name="tearDown" finished-at="2024-03-26T15:24:38 IST" duration-ms="440" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.EcommerseApplication.testCases.SearchTest@78e117e3]" started-at="2024-03-26T15:24:38 IST" name="setUp" finished-at="2024-03-26T15:24:46 IST" duration-ms="7445" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC_Sf_007_Searchusing_serachcriteria_textbox()[pri:6, instance:com.EcommerseApplication.testCases.SearchTest@78e117e3]" started-at="2024-03-26T15:24:46 IST" name="TC_Sf_007_Searchusing_serachcriteria_textbox" finished-at="2024-03-26T15:24:50 IST" duration-ms="4624" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_Sf_007_Searchusing_serachcriteria_textbox -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.EcommerseApplication.testCases.SearchTest@78e117e3]" started-at="2024-03-26T15:24:50 IST" name="tearDown" finished-at="2024-03-26T15:24:51 IST" duration-ms="406" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.EcommerseApplication.testCases.SearchTest -->
-    </test> <!-- EcommerseApplication Test -->
-  </suite> <!-- EcommerseApplication Suite -->
+    </test> <!-- CrossBrowser -->
+  </suite> <!-- Suite -->
 </testng-results>
